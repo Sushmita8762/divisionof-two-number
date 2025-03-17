@@ -1,0 +1,26 @@
+# include<iostream>
+ using namespace std;
+class sum
+{
+public:
+int a,b,c;
+void setvalue()
+{
+cout<<"enter the first number:";
+  cin>> a;
+  cout<<"enter the second number:";
+  cin>>b;
+}
+void printsum()
+{
+c=a+b;
+cout<<"sum="<<c;
+}
+};
+int main()
+{
+  sum s;
+s.setvalue();
+s.printsum();
+return 0;
+}
